@@ -1,0 +1,112 @@
+header {
+  background-color: #4A0805;
+  border-bottom: black solid 2px;
+}
+header .logo {
+  width: 10rem;
+}
+header .colorFont {
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: bold;
+}
+header .colorFont2 {
+  font-size: 40px;
+  color: #fafafa;
+}
+header h1 {
+  color: #fafafa;
+  font-weight: bolder;
+  animation-name: texto;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+body {
+  background-color: bisque;
+}
+
+.colorFooter {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #4A0805;
+}
+
+.footer {
+  cursor: pointer;
+  color: #fafafa;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.border {
+  border: #4A0805;
+  background-color: #4A0805;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: start;
+}
+
+.contacto {
+  padding: 1rem;
+  text-align: center;
+  background-color: #4A0805;
+  color: #fafafa;
+}
+
+.bgci {
+  background-color: #E5E8E8;
+  margin-top: 70px;
+  padding-top: 200px;
+}
+
+.autos {
+  margin-bottom: 50px;
+}
+
+.bgbtn {
+  background-color: #931711;
+  color: #fafafa;
+}
+
+.bgbtn:hover {
+  background-color: #4A0805;
+  color: bisque;
+}
+
+.bgPlan {
+  background-color: #4A0805;
+  text-align: center;
+  margin: 25px 8px;
+}
+
+.border-bottom {
+  border: #4A0805;
+  color: #4A0805;
+}
+
+.tituloAutos {
+  background-color: #4A0805;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.tituloCamionetas {
+  background-color: #4A0805;
+  color: #fafafa;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+
+/*# sourceMappingURL=estilo.css.map */

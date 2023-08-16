@@ -1,0 +1,17 @@
+@mixin tituloAutosYCamionetas {
+    background-color: #4A0805;
+    color: #fafafa;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.tituloAutos{
+    @include tituloAutosYCamionetas;
+}
+
+.tituloCamionetas{
+    @include tituloAutosYCamionetas;
+}
